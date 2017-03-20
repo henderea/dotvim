@@ -474,16 +474,12 @@ set background=dark            " Use colors that look good
 " Set custom configurations for when the
 " Solarized theme is used from Vim's Terminal mode.
 "
-" http://ethanschoonover.com/solarized/vim-colors-solarized#advanced-configuration
+" https://github.com/sickill/vim-monokai
 
-if !has("gui_running")
-    let g:solarized_contrast = "high"
-    let g:solarized_termcolors = 256
-    let g:solarized_termtrans = 1
-    let g:solarized_visibility = "high"
-endif
+" if !has("gui_running")
+" endif
 
-colorscheme solarized          " Use custom color scheme.
+colorscheme monokai          " Use custom color scheme.
 
 
 " ----------------------------------------------------------------------
