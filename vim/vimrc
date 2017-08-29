@@ -115,6 +115,8 @@ set wildmenu                   " Enable enhanced command-line
 
 set winminheight=0             " Allow windows to be squashed.
 
+set mouse=a                    " enable mouse reporting
+
 
 " ----------------------------------------------------------------------
 " | Plugins                                                            |
