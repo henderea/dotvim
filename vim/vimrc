@@ -1,7 +1,13 @@
 " ----------------------------------------------------------------------
 " | General Settings                                                   |
 " ----------------------------------------------------------------------
-
+let windows10=$WINDOWS10
+if windows10 == '0'
+  set t_ku=[A
+  set t_kd=[B
+  set t_kr=[C
+  set t_kl=[D
+endif
 set nocompatible               " Don't make Vim vi-compatibile.
 
 syntax on                      " Enable syntax highlighting.
